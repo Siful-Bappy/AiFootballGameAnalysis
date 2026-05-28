@@ -65,9 +65,9 @@ Thumbs.db
 *.pkl
 *.pickle
 *.joblib
-models/
-weights/
-checkpoints/
+# models/
+# weights/
+# checkpoints/
 
 # YOLO / Roboflow
 runs/
