@@ -1,0 +1,19 @@
+model:
+  weights: models/weights/yolo11n.pt
+  confidence: 0.5
+  iou_threshold: 0.4
+
+video:
+  input_path: data/raw/match.mp4
+  output_path: outputs/analyzed.mp4
+  fps: 30
+
+tracking:
+  max_age: 30
+  min_hits: 3
+
+classes:
+  - player
+  - ball
+  - referee
+  - goalkeeper
