@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+
+# Virtual environments
+venv/
+venv_AiFootballGameAnalysis/
+.venv/
+env/
+.env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video & media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# Images (large datasets)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+
+# ML models & weights
+*.pt
+*.pth
+*.onnx
+*.pb
+*.h5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+models/
+weights/
+checkpoints/
+
+# YOLO / Roboflow
+runs/
+*.yaml.lock
+
+# Datasets
+datasets/
+data/raw/
+*.csv
+*.json
+
+# Logs & outputs
+logs/
+*.log
+output/
+results/
