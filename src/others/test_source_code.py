@@ -1,6 +1,8 @@
+import os
 import cv2 as cv
 
-read_video = cv.VideoCapture("dataset.mp4")
+VIDEO_PATH = os.path.join(os.path.dirname(__file__), "../../video_test/dataset.mp4")
+read_video = cv.VideoCapture(VIDEO_PATH)
 if not read_video.isOpened():
     raise ValueError("Cannot open video: dataset.mp4")
 
@@ -15,5 +17,5 @@ while True:
     print("----")
 
     frames.append(frame)
-    print(f"Read {len(frames)} frames", end="\r")
-    print("Frames: ", frames)
+    # print(f"Read {len(frames)} frames", end="\r")
+    # print("Frames: ", frames)
