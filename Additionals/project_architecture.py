@@ -26,4 +26,9 @@ football_ai/
 python -m ipykernel install --user --name=football_ai --display-name "Football AI"
 jupyter notebook
 
+
+
+
+
+
 """
